@@ -1,0 +1,25 @@
+{
+    "name": "antonioanerao/laravel-permission-editor",
+    "description": "Visual UI for managing Roles/Permissions for Spatie Laravel Permission package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Anerão",
+            "email": "anerao.junior@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Antonioanerao\\LaravelPermissionEditor\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Antonioanerao\\LaravelPermissionEditor\\PermissionEditorServiceProvider"
+            ]
+        }
+    }
+}
